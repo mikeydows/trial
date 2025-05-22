@@ -27,7 +27,7 @@ p{
 }
 
 .profilepic img{
-    width: 400px;
+    width: 70%;
     border-radius: 50%;
 }
 
@@ -72,7 +72,7 @@ p{
 }
 
 .projectImg img{
-    width: 200px;
+    width: 100%;
 }
 
 .projectImg a{
@@ -98,12 +98,14 @@ p{
 
 .skills ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
 }
 
 .skills ul li{
     list-style-type: circle;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -167,7 +169,7 @@ textarea{
     .about{
         width: 80%;
         text-align: center;
-        margin: 100px auto;
+        margin: 10px auto;
     }
 
     .projects{
@@ -177,11 +179,7 @@ textarea{
     .projectImg{
         display: block;
     }
-
-    .projectImg img{
-        width: 300px;
-    }
-
+/*
     .skills{
         width: 98%;
         text-align: center;
@@ -194,7 +192,7 @@ textarea{
         font-family: 'Courier New', Courier, monospace;
     }
 
-    
+ */   
     .contact{
         margin: 100px auto;
     }
